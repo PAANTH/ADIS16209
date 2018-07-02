@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m3 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F107VC -DSTM32F10X_CL -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -IP:\WorkProj\KSO_INCLINOM_FOR_BSO\proj\opack_raw_spi\stm_lib -IP:\WorkProj\KSO_INCLINOM_FOR_BSO\proj\opack_raw_spi\stm_lib\inc -IP:\WorkProj\KSO_INCLINOM_FOR_BSO\proj -IP:\WorkProj\KSO_INCLINOM_FOR_BSO\proj\opack_raw_spi\cmsis -IP:\WorkProj\KSO_INCLINOM_FOR_BSO\proj\opack_raw_spi -IP:\WorkProj\KSO_INCLINOM_FOR_BSO\proj\opack_raw_spi\cmsis_boot -IP:\WorkProj\KSO_INCLINOM_FOR_BSO\proj\opack_raw_spi\program_files">
+      <target file="stm32f10x_tim.o" lastModified="1645a427cf0">
+         <source file="..\..\..\stm_lib\src\stm32f10x_tim.c" lastModified="16440150c55"/>
+      </target>
+      <target file="startup_stm32f10x_cl.o" lastModified="1645a428256">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_cl.c" lastModified="1644014d623"/>
+      </target>
+      <target file="system_stm32f10x.o" lastModified="1645a427ddb">
+         <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="1644014d6a0"/>
+      </target>
+      <target file="spi_prog.o" lastModified="1645a427b47">
+         <source file="..\..\..\program_files\spi_prog.c" lastModified="1645a426a99"/>
+      </target>
+      <target file="stm32f10x_spi.o" lastModified="1645a42862f">
+         <source file="..\..\..\stm_lib\src\stm32f10x_spi.c" lastModified="1644014fc5d"/>
+      </target>
+      <target file="stm32f10x_flash.o" lastModified="1645a428360">
+         <source file="..\..\..\stm_lib\src\stm32f10x_flash.c" lastModified="16440150490"/>
+      </target>
+      <target file="main.o" lastModified="1645a42809e">
+         <source file="..\..\..\program_files\main.c" lastModified="164401ad985"/>
+      </target>
+      <target file="stm32f10x_gpio.o" lastModified="1645a427ed5">
+         <source file="..\..\..\stm_lib\src\stm32f10x_gpio.c" lastModified="1644014e369"/>
+      </target>
+      <target file="system_init.o" lastModified="1645a428011">
+         <source file="..\..\..\program_files\system_init.c" lastModified="164462bd4ee"/>
+      </target>
+      <target file="stm32f10x_rcc.o" lastModified="1645a4281a9">
+         <source file="..\..\..\stm_lib\src\stm32f10x_rcc.c" lastModified="1644014d5f4"/>
+      </target>
+      <target file="misc.o" lastModified="1645a428515">
+         <source file="..\..\..\stm_lib\src\misc.c" lastModified="164401514f6"/>
+      </target>
+      <target file="stm32f10x_dma.o" lastModified="1645a42844a">
+         <source file="..\..\..\stm_lib\src\stm32f10x_dma.c" lastModified="1644014f1c6"/>
+      </target>
+   </processor>
+</history>

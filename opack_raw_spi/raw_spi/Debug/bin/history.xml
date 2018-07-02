@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -g -nostartfiles -Map=raw_spi.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\raw_spi -TC:\CooCox\CoIDE\configuration\ProgramData\raw_spi/arm-gcc-link.ld -g">
+      <target file="raw_spi.elf" lastModified="1645a42894f">
+         <source file="..\obj\spi_prog.o" lastModified="1645a427b47"/>
+         <source file="..\obj\stm32f10x_tim.o" lastModified="1645a427cf0"/>
+         <source file="..\obj\system_stm32f10x.o" lastModified="1645a427ddb"/>
+         <source file="..\obj\stm32f10x_gpio.o" lastModified="1645a427ed5"/>
+         <source file="..\obj\system_init.o" lastModified="1645a428011"/>
+         <source file="..\obj\main.o" lastModified="1645a42809e"/>
+         <source file="..\obj\stm32f10x_rcc.o" lastModified="1645a4281a9"/>
+         <source file="..\obj\startup_stm32f10x_cl.o" lastModified="1645a428256"/>
+         <source file="..\obj\stm32f10x_flash.o" lastModified="1645a428360"/>
+         <source file="..\obj\stm32f10x_dma.o" lastModified="1645a42844a"/>
+         <source file="..\obj\misc.o" lastModified="1645a428515"/>
+         <source file="..\obj\stm32f10x_spi.o" lastModified="1645a42862f"/>
+      </target>
+   </processor>
+</history>
